@@ -36,6 +36,13 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_maps_flutter: ^2.10.0
   get: ^4.6.6
+  geolocator: ^13.0.2
+  flutter_pdfview: ^1.4.0
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  syncfusion_flutter_pdf: ^28.2.5
+  flutter_cached_pdfview: ^0.4.3
+  shared_preferences: ^2.5.2
 
 dev_dependencies:
   flutter_test:
@@ -60,9 +67,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
